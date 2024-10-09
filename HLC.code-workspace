@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../JavaScript"
+		},
+		{
+			"path": "../../Bloque 1"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "HLC"
+	}
+}
