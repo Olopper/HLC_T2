@@ -45,7 +45,10 @@
 <h1>Formulario de Registro</h1>
 <form id="formulario" onsubmit="mostrarDatos(event)">
     <label for="nombre">Nombre:</label>
-    <input type="text" id="nombre" required minlength="3" maxlength="50" autocomplete="off" placeholder="Escribe tu nombre completo"><br><br>
+    <input type="text" id="nombre" required minlength="3" maxlength="50" autocomplete="on" placeholder="Escribe tu nombre completo"><br><br>
+
+    <label for="correo">Correo electrónico:</label>
+    <input type="email" id="correo" required minlength="6" maxlength="20" autocomplete="on" placeholder="email@ejemplo.com"><br><br>
 </form>
 <!-- Fin del contenido del formulario -->
 
