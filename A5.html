@@ -42,7 +42,11 @@
 <body>
 
 <!-- Contenido del formulario -->
-
+<h1>Formulario de Registro</h1>
+<form id="formulario" onsubmit="mostrarDatos(event)">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" required minlength="3" maxlength="50" autocomplete="off" placeholder="Escribe tu nombre completo"><br><br>
+</form>
 <!-- Fin del contenido del formulario -->
 
 <!-- Div donde se mostrarán los datos ingresados -->
